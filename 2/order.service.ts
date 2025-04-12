@@ -1,5 +1,17 @@
 import { CakeType } from "./order.type";
 
+// バナナケーキ
+class BananaCake implements CakeType {
+  order(): void {
+    console.log("【Factory Method】🍌バナナケーキが注文されました");
+  }
+}
+export class BananaCakeFactory {
+  static createCakeInstance(): CakeType {
+    return new BananaCake();
+  }
+}
+
 // チョコレートケーキ
 class ChocolateCake implements CakeType {
   order(): void {
