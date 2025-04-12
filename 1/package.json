@@ -1,0 +1,10 @@
+{
+  "name": "order-module",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc order.ts --noEmit",
+    "dev": "npm run check && npx tsx order.ts"
+  }
+}

@@ -1,0 +1,1 @@
+export type CakeType = 'chocolate' | 'cheese' | 'fruit';

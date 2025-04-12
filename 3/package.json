@@ -1,0 +1,10 @@
+{
+  "name": "payment-module",
+  "version": "0.1.0",
+  "private": true,
+   "type": "module",
+  "scripts": {
+    "check": "tsc payment.ts --noEmit",
+    "dev": "npm run check && npx tsx payment.ts"
+  }
+}
