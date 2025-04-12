@@ -1,9 +1,11 @@
+import { PaymentCommissionStrategy } from "./payment-commission.service";
 import { PaymentType } from "./payment.type";
 
 // PayPay
 class PayPay implements PaymentType {
   pay(): void {
     console.log("【Strategy】📱PayPayで支払われました");
+    PaymentCommissionStrategy.createPaymentCommissionInstance().payCommission(500);
   }
 }
 export class PayPayStrategy {
