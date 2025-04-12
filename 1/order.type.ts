@@ -1,1 +1,1 @@
-export type CakeType = 'chocolate' | 'cheese' | 'fruit';
+export type CakeType = 'chocolate' | 'cheese' | 'apple';
