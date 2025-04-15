@@ -5,7 +5,7 @@ export function getCakeOrderMethod(type: CakeType) {
     console.log('【Anti Pattern】🍫チョコレートケーキが注文されました')
   } else if (type === 'cheese') {
     console.log('【Anti Pattern】🧀チーズケーキが注文されました')
-  } else if (type === 'apple') {
+  } else if (type === 'fruit') {
     console.log('【Anti Pattern】🍎アップルケーキが注文されました')
   }
 }
