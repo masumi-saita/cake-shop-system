@@ -1,3 +1,3 @@
-import { ChocolateCakeFactory } from './order.service';
+import { BananaCakeFactory } from './order.service';
 
-ChocolateCakeFactory.createCakeInstance().order();
+BananaCakeFactory.createCakeInstance().order();
